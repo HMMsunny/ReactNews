@@ -40,6 +40,7 @@ render(){
                 {/*详情页主要内容*/}
                 <Col span={14} className="container">
                 <div className="articleContainer" dangerouslySetInnerHTML={this.createMakeup()}></div>
+                <hr />
                 <CommonComments uniquekey={this.props.params.uniquekey} />
                 </Col>
                 <Col span={6}>

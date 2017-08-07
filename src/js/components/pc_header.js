@@ -108,7 +108,7 @@ import {Router, Route, Link, browserHistory} from 'react-router'
 		<Menu.Item key="logout" class="register">
              <Button type="primary" htmlType="button" style={{height:20}}>{this.state.userNickName} </Button>
 			 &nbsp;&nbsp;
-			 <Link target="_blank">
+			 <Link target="_blank" to={`/usercenter`}>
 			 <Button type="dashed" htmlType="button" style={{marginRight:10}}>个人中心 </Button>
 			 </Link>
 			 <Button type="ghost" htmlType="button" onClick={this.logout.bind(this)}>退出 </Button>
